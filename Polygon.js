@@ -11,7 +11,7 @@ class Polygon {
       this.diameter = diameter;
   }
   display(){
-      ellipseMode(CENTER);
+      ellipseMode(RADIUS);
       var pos = this.body.position;
       push()
       translate(pos.x, pos.y)
